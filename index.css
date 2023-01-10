@@ -1,0 +1,139 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  background: cornflowerblue;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.timothy {
+  background-image: url("./xy.avif");
+  min-height: 60vh;
+  background-position: center;
+  background-size: cover;
+
+  /* min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-left: 50px; */
+}
+
+.timothy h1 {
+  color: coral;
+}
+.timothy p {
+  color: #fff;
+}
+
+.madam_winnie_btn {
+  background: red;
+  border: none;
+  /* padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px; */
+
+  /* padding: 2px 10px 2px 10px; */
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.madam_winnie_btn:hover {
+  background-color: yellow;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s ease-in-out;
+}
+
+/* .timothy button {
+  background: coral;
+  border: none;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.timothy button:hover {
+  background-color: #000;
+  cursor: pointer;
+  color: green;
+  transition: 2.5s ease-in;
+} */
+
+a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #fff;
+  font-size: 8px;
+}
+
+a:hover {
+  color: red;
+  transition: 0.5s ease-in-out;
+}
+
+.logo {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.logo img {
+  width: 30px;
+  margin-top: 5px;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+  background: indianred;
+  /* flex-direction: row-reverse; */
+}
+
+.first_born {
+  flex: 3;
+  background-color: green;
+}
+
+.second_born {
+  flex: 3;
+  background: indianred;
+}
+.third_born {
+  flex: 1;
+  background: blue;
+}
+
+.abt_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.abt_wrap p {
+  color: red;
+}
+
+.abt_img {
+  flex: 1;
+}
+
+.abt_wrap .abt_img img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.abt_content {
+  flex: 2;
+}
